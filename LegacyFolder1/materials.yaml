@@ -1,0 +1,30 @@
+# Engineering materials for my FEM analysis
+
+materials:
+  - name: Aluminum 7075-T6
+    elastic_modulus: 73200000000     # [Pa]
+    poissons_ratio: 0.33             # [-]
+    yield_strength: 503000000        # [Pa]
+    density: 2810                    # [kg/m^3]
+    color: cyan
+
+  - name: Steel S355
+    elastic_modulus: 210000000000    # [Pa]
+    poissons_ratio: 0.3              # [-]
+    yield_strength: 355000000        # [Pa]
+    density: 7850                    # [kg/m^3]
+    color: grey
+
+  - name: CFRP
+    elastic_modulus: 140000000000    # [Pa]
+    poissons_ratio: 0.25             # [-]
+    yield_strength: 1200000000       # [Pa]
+    density: 1600                    # [kg/m^3]
+    color: black
+
+  - name: Polyamide 12
+    elastic_modulus: 1700000000      # [Pa]
+    poissons_ratio: 0.3             # [-]
+    yield_strength: 0                # [Pa]
+    density: 1015                    # [kg/m^3]
+    color: orange
